@@ -77,7 +77,7 @@ class condition: public item{
 };
 
 class mesh{
-        float parameters[2];
+        float parameters[3]; //Cantidad de paratros pasados a mesh
         int sizes[4];
         node *node_list;
         element *element_list;
